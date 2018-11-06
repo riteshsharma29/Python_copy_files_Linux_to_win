@@ -20,8 +20,6 @@ passwd = '*****'
 
 ssh.connect(IPaddress, username=user, password=passwd, port=22)
 
-sys.exit()
-
 mycmd = 'cd /root/Downloads/test;ls'
 source_path='/root/Downloads/test/'
 outdir = ' e:\\dest\\'
